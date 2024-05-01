@@ -173,11 +173,9 @@ p{
     margin-left: -60px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: co;
-
-    /* justify-content: space-evenly; */
     
 }
+
 .requestsheader {
     width: 255px;
     height: 40px;
@@ -189,6 +187,17 @@ p{
     padding-left: 20px;
     font-family: sans-serif;
     font-weight:bold;
+}
+
+.list{
+display: flex;
+
+}
+
+.icons{
+   display: flex;
+   
+   
 }
 
 .number2{
@@ -216,15 +225,21 @@ p{
 .icon{
     width: 30px;
     height: 30px;
-    justify-content: flex-end;
+    padding: 10px;
+}
+
+.icons{
+   padding-right: 50px;
+   justify-content:  ;
+   
+
+}
+.list{
+    display: flex;
+    align-items: center;
 
 }
 
-
-.requestlist{
-    justify-content: column;
-
-}
 
 .connections{
     border: 1px black solid;
